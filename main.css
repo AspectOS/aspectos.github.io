@@ -29,7 +29,6 @@ html {
         border-color: var(--primary) !important;
     }
 
-    .row { color: white; }
 }
 
 /* Dark mode toggeling */
@@ -171,3 +170,6 @@ a {
     color: var(--text-color) !important;
 }
 
+.text {
+    color: var(--text-color) !important;
+}
