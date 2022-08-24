@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@im@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}port url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 html {
     font-size: 19px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: --text-color !important; 
     --primary: #85c6e6;
     --main-bg: #EEEEEE;
@@ -22,6 +26,7 @@ html {
         --primary: #003a6f;
         --main-bg: #222233;
         --text-color: #EEEEFF;
+        font-family: 'Inter', sans-serif;
     }
 
     .card-dark {
@@ -90,7 +95,6 @@ a {
     padding: 15px 20px;
     margin-left: 20px;
     margin-right: 20px;
-
     color: var(--text-color);
 }
 
@@ -115,17 +119,15 @@ img {
 
 body {
     background-color: var(--main-bg);
-
-    color: var(--text-color)
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+    margin: 5px;
+    padding: 5px;
+    
 }
 
 .container::before {
   content: '\00a0';
-}
-
-body {
-    margin: 5px;
-    padding: 5px;
 }
 
 .card {
