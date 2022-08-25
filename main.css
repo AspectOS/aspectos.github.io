@@ -175,3 +175,8 @@ a {
 .text {
     color: var(--text-color) !important;
 }
+
+.page-404 {
+    --main-bg: #090909 !important;
+    --text-color: #fff !important;
+}
